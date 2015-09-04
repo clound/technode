@@ -1,0 +1,15 @@
+{
+  "name": "technode",
+  "version": "1.0.0",
+  "description": "chatting room",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clound",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.6"
+  }
+}
