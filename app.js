@@ -20,6 +20,6 @@ io.sockets.on('connection',function(socket){
     })
     socket.on('createMessage',function(message){
         messages.push(message)
-        io.sockets.emit('messsageAdded',message)
+        io.sockets.emit('messageAdded',message)
     })
 })
